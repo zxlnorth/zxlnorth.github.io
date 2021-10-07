@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xiaolin Zhao Personal Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+  <h1>Personal Project - Xiaolin Zhao</h1>
+
+  <div class="container">
+    <div class="leftContent">
+      <ul class="navBar">
+        <li id="homeLink"><a href="#">Home</a></li>
+        <li id="projectLink"><a href="/project">Project</a></li>
+        <li id="contactLink"><a href="/contact">Contact</a></li>
+        <li id="othersLink"><a href="/about">About me</a></li>
+      </ul>
+    </div>
+
+    <div class="rightContent">
+      <div class="project">
+        <h2>Deep Learning for Computer Vision tasks (Pytorch, TensorFlow, Keras, Java, Android Studio)</h2>
+        <ul>
+          <li><span>Image denoising:</span> Built and trained an encoding-decoding to denoise images corrupted by gaussian random noise, increased peak signal-to-noise ratio (PSNR) by 30dB</li>
+          <li><span>Image classification app on Android:</span> Built and trained Convolutional Neural Networks (CNN) for classification on different datasets: CIFAR-100 and traffic sign; built UI for each model and run them on a virtual Android phone</li>
+          <li><span>Image segmentation:</span> Implemented and trained a U-Net for semantic segmentation for urban street scenes (Cityscapes dataset) and visualized the result, also tested with street scene images taken by cell phone</li>
+          <li><span>MPI generation:</span> Generate a Multi-Plane Image (MPI) from single internet image, the whole process includes mono image depth estimation (Efficient U-Net + knowledge distillation from MiDas), adaptive depth-based image slicing (local maxima based grouping) and inpainting for occluded areas (partial convolution)</li>
+        </ul>
+      </div>
+    
+      <div class="project">
+        <h2>Machine Learning for Data Analyzing Applications (Jupyter notebook, pandas, scikit-learn, seaborn)</h2>
+        <ul>
+          <li><span>Basic NLP experiments:</span> Built an email spam filter and a system to translate yelp reviews to rating stars, both using
+            naïve Bayesian classifier after extracted features from input text information</li>
+          <li><span>Hate speech detection:</span> Detecting if social media posts contain hate speech or not using random forest, support
+            vector machine (SVM) and multi-layer perceptron (MLP), implemented hyperparameters tuning for each model</li>
+          <li><span>Sequential data predictions:</span> Built a neural network for regression to predict car sales information; Used Facebook
+            Prophet model to predict crime rate and market price changing</li>
+          <li>Built a movie recommendation system using user-based collaborative filtering</li>
+        </ul>
+      </div>
+    
+      <div class="project">
+        <h2>Task Management System (Java, Git)</h2>
+        <ul>
+          <li>Led two other members to design and implement a task management system under MVC framework</li>
+          <li>Implemented a user-friendly command-line parser to perform different tasks with the application of self-defined
+            interfaces and several design patterns, such as Builder pattern</li>
+        </ul>
+      </div>
+    
+      <div class="project">
+        <h2>Othello Game (Python, Processing for UI)</h2>
+        <ul>
+          <li>Implemented board, disk and player classes using Python for game-play functionalities and Processing for UI</li>
+          <li>Implemented algorithm for AI agent so that computer can play against human by choosing local optima</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

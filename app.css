@@ -1,0 +1,64 @@
+@media (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+  }
+}
+
+body {
+  background-color: lightgray;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+}
+
+.navBar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.navBar li {
+  width: 5vw;
+  height: 5vh;
+  border-radius: 25% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: mediumaquamarine;
+  border: 1px solid lightgrey;
+}
+
+.navBar li:first-child {
+  background-color: lightcoral;
+}
+
+.navBar li:hover {
+  width: 6vw;
+  height: 7vh;
+}
+
+.rightContent {
+  margin-left: 3em;
+  margin-right: 5em;
+}
+
+.education,
+.experience {
+  margin-top: 2em;
+}
+
+.experience li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
